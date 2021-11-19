@@ -2,6 +2,7 @@ RedsHouse1F_Script:
 	jp EnableAutoTextBoxDrawing
 
 RedsHouse1F_TextPointers:
+	dw DadPotionText
 	dw RedsHouse1FMomText
 	dw RedsHouse1FTVText
 
@@ -66,4 +67,8 @@ StandByMeText:
 
 TVWrongSideText:
 	text_far _TVWrongSideText
+	text_end
+
+DadPotionText:
+	text_far _DadPotionText
 	text_end

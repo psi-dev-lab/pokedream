@@ -1,13 +1,26 @@
+_DadPotionText::
+	text "Well, sport,"
+	line "today's the big"
+	cont "day."
+
+	para "Do your old"
+	line "man proud and"
+	cont "get em' good!"
+	done
+
+
 _MomWakeUpText::
-	text "MOM: Right."
-	line "All boys leave"
-	cont "home some day."
-	cont "It said so on TV."
+	text "MOM: Don't"
+	line "mind your father,"
+	cont "honey. He's just"
+	cont "Keeping you on"
+	cont "your toes."
 
 	para "PROF.OAK, next"
 	line "door, is looking"
 	cont "for you."
 	done
+
 
 _MomHealText1::
 	text "MOM: <PLAYER>!"
