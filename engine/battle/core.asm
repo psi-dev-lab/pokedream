@@ -163,6 +163,7 @@ StartBattle:
 	call LoadScreenTilesFromBuffer1
 	ld a, [wBattleType]
 	and a ; is it a normal battle?
+	ld a, BANK(RedPicBackHat)
 	jp z, .playerSendOutFirstMon ; if so, send out player mon
 ; safari zone battle
 .displaySafariZoneBattleMenu
